@@ -5863,7 +5863,8 @@ ol.bibliography li div.comments {
 
 #portfolio #about-me {
     position: relative;
-    padding: 60px 0
+    padding: 20px 0 20px 0;
+    margin-bottom: 0;
 }
 
 #portfolio #about-me .img-wrap {
@@ -5972,8 +5973,8 @@ ol.bibliography li div.comments {
     z-index: -1;
     position: absolute;
     width: 100%;
-    height: calc(100% + 120px);
-    top: -60px;
+    height: calc(100% + 80px);
+    top: -20px;
     background: linear-gradient(135deg, #333D51 0%, #4a5568 100%);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -6876,6 +6877,25 @@ footer .footer a:hover {
     overflow: hidden
 }
 
+.patents-publications-container {
+    max-width: 95%;
+    padding: 0 40px;
+}
+
+@media (max-width: 991px) {
+    .patents-publications-container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .patents-publications-container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}
+
 #recentpubs .recentpubs-wrap,
 #patents .recentpubs-wrap,
 #publications .recentpubs-wrap {
@@ -6962,14 +6982,35 @@ footer .footer a:hover {
     position: relative;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
-    transition: all 0.3s ease;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-.resume .resume-item:hover {
+/* 링크가 있는 항목을 위한 스타일 */
+.resume-item-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.resume-item-link .resume-item {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.resume-item-link .resume-item:hover {
     transform: translateX(5px);
     box-shadow: 0 4px 15px rgba(31, 82, 151, 0.15);
     background: rgba(255, 255, 255, 0.8);
+}
+
+.resume-item-link .resume-item::before {
+    transition: all 0.3s ease;
+}
+
+.resume-item-link .resume-item:hover::before {
+    background: #1f5297;
+    transform: scale(1.2);
+    box-shadow: 0 0 0 6px rgba(31, 82, 151, 0.2);
 }
 
 .resume .resume-item h4 {
@@ -7017,11 +7058,4 @@ footer .footer a:hover {
     background: #fff;
     border: 3px solid #1f5297;
     box-shadow: 0 0 0 4px rgba(31, 82, 151, 0.1);
-    transition: all 0.3s ease;
-}
-
-.resume .resume-item:hover::before {
-    background: #1f5297;
-    transform: scale(1.2);
-    box-shadow: 0 0 0 6px rgba(31, 82, 151, 0.2);
 }
