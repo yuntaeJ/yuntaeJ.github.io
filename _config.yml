@@ -22,7 +22,7 @@
 title: Yuntae Jeon
 description: Yuntae Jeon CV
 url: 'https://yuntaej.github.io'
-baseurl: '/'
+baseurl: ''
 google_analytics: 'G-XVJPSB1JCK'
 # disqus_shortname: 'your-disqus-name'
 
@@ -46,9 +46,14 @@ google_analytics:
   id: 'G-XVJPSB1JCK' 
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# The static pages include their own styling; no legacy theme is needed.
+exclude:
+  - README.md
+  - LICENSE.txt
+  - Gemfile
+  - Gemfile.lock
+  - LINK_CHECK.md
+  - vendor
 
 # Exclude from processing.
 # The following items will not be processed, by default.

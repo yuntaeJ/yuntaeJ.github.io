@@ -4,792 +4,494 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <!-- Favicon code from realfavicongenerator.net -->
-  <link rel="apple-touch-icon" type="image/png" sizes="16x16" href="/assets/img/icons/rocket_icon.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/rocket_icon.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#8b51a3">
-  <meta name="msapplication-TileColor" content="#563d7c">
-  <meta name="theme-color" content="#ffffff">
-
-  <!--jQuery-->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-    crossorigin="anonymous"></script>
-
-  <!-- Fonts & Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"
-    integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css"
-    integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/main.css">
-
-  <!-- Begin Jekyll SEO tag v2.8.0 -->
   <title>Yuntae Jeon | 전윤태</title>
-  <meta name="generator" content="Jekyll v4.2.2" />
-  <meta property="og:title" content="Yuntae Jeon" />
-  <meta name="author" content="Yuntae Jeon" />
-  <meta property="og:locale" content="en_GB" />
-  <meta name="description" content="Yuntae Jeon - Homepage" />
-  <meta property="og:description" content="Yuntae Jeon - Homepage" />
-  <link rel="canonical" href="http://localhost:4000/" />
-  <meta property="og:url" content="http://localhost:4000/" />
-  <meta property="og:site_name" content="Yuntae Jeon" />
-  <meta property="og:type" content="website" />
-  <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Yuntae Jeon"},"description":"Yuntae Jeon - Homepage","headline":"Yuntae Jeon (전윤태)","name":"Yuntae Jeon - 전윤태","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/face.png"},"name":"Yuntae Jeon"},"url":"http://localhost:4000/"}</script>
-  <!-- End Jekyll SEO tag -->
+  <meta name="description" content="Yuntae Jeon — AI researcher bridging civil engineering and computer vision.">
 
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/rocket_icon.png">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2F6BD8">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+<style>
+:root{
+  --bg:#fff;--surface:#fff;--ink:#20242A;--ink-2:#424951;
+  --muted:#626C77;--line:#E1E5E9;--ai:#2456A6;--civil:#424951;
+  --maxw:940px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;font-size:15px;line-height:1.7;letter-spacing:-.012em;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-underline-offset:4px}
+a,button{touch-action:manipulation}
+a:focus-visible,button:focus-visible{outline:2px solid var(--ai);outline-offset:5px}
+img{max-width:100%}
+[hidden]{display:none!important}
+.wrap{max-width:var(--maxw);margin:0 auto;padding-inline:32px}
+.nav{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--line)}
+.nav-in{display:flex;align-items:center;gap:22px;min-height:64px;overflow-x:auto}
+.nav-mark{font-weight:600;font-size:14px;margin-right:auto;white-space:nowrap;letter-spacing:-.025em}
+.nav a{padding:20px 0;text-decoration:none;color:var(--muted);font-size:12px;white-space:nowrap}
+.nav a:hover{color:var(--ai)}
+.hero{padding:52px 0 20px;scroll-margin-top:84px}
+.hero-top{display:flex;gap:48px;align-items:flex-start}
+.hero-txt{flex:1;min-width:0}
+.hero h1{font-size:clamp(30px,4vw,42px);font-weight:600;line-height:1.2;letter-spacing:-.055em;margin:0 0 12px}
+.hero h1 span{font-size:.53em;letter-spacing:-.035em;white-space:nowrap}
+.hero .role{font-size:13px;color:var(--muted);margin:0 0 25px}
+.hero p{margin:0 0 14px;color:var(--ink-2);font-size:14px;line-height:1.85}
+.avatar{flex:0 0 150px;width:150px;height:180px;border-radius:3px;object-fit:cover;object-position:center}
+mark.c,mark.a{background:none;color:var(--ink);font-weight:500}
+.hero .interests{margin:14px 0 0;font-size:12px;color:var(--muted)}
+.hero .interests strong{font-weight:500;color:var(--ink-2)}
+.hero .quote{margin:10px 0 0;font-size:12px;color:var(--muted)}
+.links{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:26px}
+.links a,.links .email{display:inline-flex;align-items:center;gap:7px;text-decoration:none;font-size:12px;font-weight:500;color:var(--ai)}
+.links a{min-height:32px;padding:4px 11px;border:1px solid var(--line);border-radius:4px;background:var(--surface);color:var(--ink-2);font-weight:400;transition:background .16s,border-color .16s,color .16s}
+.links a::after{content:'↗';margin-left:2px;font-size:11px;line-height:1;color:#89919A}
+.links a:hover,.links a:focus-visible{background:#F5F6F7;border-color:#AAB2BB;color:var(--ink)}
+.links a:active{background:#ECEEF1}
+.links .email{padding:8px 0;margin-left:8px;color:var(--muted)}
+.links i{font-size:12px}
+@media(prefers-reduced-motion:reduce){.links a{transition:none}}
+section{padding:38px 0 12px;scroll-margin-top:86px}
+.sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:25px}
+.sec-head h2{font-size:20px;font-weight:600;margin:0;letter-spacing:-.035em}
+.sec-head .rule{flex:1;height:1px;background:var(--line)}
+.tag{display:inline-block;font-size:10px;font-weight:500;letter-spacing:.025em;padding:1px 6px;vertical-align:1px;white-space:nowrap;color:var(--muted);background:#F3F5F7;border-radius:2px}
+.filter{display:flex;flex-wrap:wrap;gap:22px;margin-bottom:6px}
+.filter button{font:inherit;font-size:12px;cursor:pointer;padding:5px 0 10px;border:0;border-bottom:2px solid transparent;background:none;color:var(--muted)}
+.filter button:hover{color:var(--ai)}
+.filter button[aria-pressed="true"]{border-bottom-color:var(--ai);color:var(--ai);font-weight:600}
+.list{border-top:1px solid var(--line)}
+.item{padding:22px 0;border-bottom:1px solid var(--line)}
+.item.hide{display:none}
+.item .t{font-size:14px;font-weight:600;line-height:1.6;margin-bottom:6px;letter-spacing:-.012em}
+.item .t a{text-decoration:none}
+.item .t a:hover{color:var(--ai);text-decoration:underline}
+.item .au{font-size:12px;color:var(--muted);line-height:1.7}
+.item .au em{font-style:normal;font-weight:500;color:var(--ink-2)}
+.item .vn{font-size:12px;color:var(--ink-2);margin-top:4px}
+.item .vn i{font-style:normal}
+.item .yr{color:var(--muted);font-variant-numeric:tabular-nums}
+.item .row{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:9px}
+.btn{display:inline-flex;align-items:center;gap:5px;text-decoration:none;font-size:11px;font-weight:500;color:var(--ai);padding:2px 0}
+.btn:hover{text-decoration:underline}
+.tl{position:relative;padding-left:20px}
+.tl::before{content:'';position:absolute;left:3px;top:7px;bottom:26px;width:1px;background:var(--line)}
+.tl-item{position:relative;padding:0 0 20px}
+.tl-item::before{content:'';position:absolute;left:-22px;top:7px;width:7px;height:7px;border-radius:50%;background:var(--surface);border:2px solid #8B949E}
+.tl-item:last-child{padding-bottom:0}
+.tl-item .h{font-size:13px;font-weight:600;line-height:1.5;color:var(--ink)}
+.tl-item .m{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;margin-top:3px}
+.tl-item .d{font-size:12px;line-height:1.6;color:var(--ink-2);margin-top:5px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.intro-background{margin-top:30px;padding-top:24px;border-top:1px solid var(--line);gap:54px}
+.intro-column+.intro-column{border-left:1px solid var(--line);padding-left:54px}
+.intro-title{margin:0 0 20px;font-size:20px;font-weight:600;line-height:1.3;letter-spacing:-.035em;color:var(--ink)}
+.honor{padding:14px 0;border-bottom:1px solid var(--line);display:flex;gap:18px;align-items:flex-start}
+.honor .yr{flex:0 0 58px;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;padding-top:2px}
+.honor .b{flex:1;min-width:0}
+.honor .b .h{font-size:13px;font-weight:500;line-height:1.6}
+.honor .b .h a{text-decoration:none}
+.honor .b .h a:hover{color:var(--ai);text-decoration:underline}
+.honor .b .s{font-size:12px;color:var(--muted);margin-top:3px}
+.more{margin-top:16px;font:inherit;font-size:12px;cursor:pointer;color:var(--ai);background:none;border:0;border-bottom:1px solid var(--line);padding:4px 0}
+.more:hover{border-color:var(--ai)}
+footer{margin-top:60px;padding:24px 0 36px;border-top:1px solid var(--line);font-size:11px;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between}
+@media(max-width:640px){
+  .wrap{padding-inline:22px}
+  .nav-in{gap:20px;min-height:54px}
+  .nav-mark{display:none}
+  .nav a{padding:17px 0;font-size:11px}
+  .hero{padding:30px 0 12px;scroll-margin-top:74px}
+  .hero-top{display:grid;grid-template-columns:88px minmax(0,1fr);gap:0 18px;align-items:center}
+  .hero-txt{display:contents}
+  .identity{grid-column:2;grid-row:1;min-width:0}
+  .avatar{grid-column:1;grid-row:1;width:88px;height:104px;flex-basis:auto}
+  .hero h1{font-size:28px;margin-bottom:7px}
+  .hero h1 span{display:block;margin-top:3px;font-size:.55em}
+  .hero p{font-size:14px}
+  .hero .role{margin:0;font-size:12px;line-height:1.5}
+  .hero .bio{grid-column:1/-1;grid-row:2;margin-top:18px}
+  .two{grid-template-columns:1fr;gap:24px}
+  .intro-background{gap:26px}
+  .intro-column+.intro-column{border-left:0;border-top:1px solid var(--line);padding:24px 0 0}
+  section{padding-top:32px;scroll-margin-top:74px}
+  .sec-head{gap:12px;margin-bottom:20px}
+  .sec-head h2{font-size:19px}
+  .honor{gap:12px}
+  .honor .yr{flex-basis:48px;font-size:11px}
+  .filter{gap:19px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.skills{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:28px}
+.skill-card{padding:20px 22px;border:1px solid #e5eaf0;border-radius:14px;background:linear-gradient(145deg,#fafbfd,#f4f7fa)}
+.skill-card h2{font-size:18px;line-height:1.35;letter-spacing:-.035em;margin:0 0 3px;font-weight:600}
+.skill-card ul{padding:0;margin:0;list-style:none}
+.skill-card li{font-size:13px;line-height:1.65;color:var(--ink-2);margin-top:10px}
+.skill-card strong{font-weight:600;color:var(--ink)}
+.skill-card>a{display:inline-block;margin-top:20px;font-size:14px;color:var(--ai);text-decoration:none}
+.skill-card>a:hover{text-decoration:underline}
+.filter{display:inline-flex;gap:4px;padding:5px;background:#f1f4f8;border:1px solid #e8edf3;border-radius:999px;margin-bottom:20px}
+.filter button{border:0;border-radius:999px;padding:8px 22px;transition:background .2s,color .2s,box-shadow .2s}
+.filter button[aria-pressed="true"]{background:#fff;box-shadow:0 2px 8px #233b5c0d}
+#pubs{border-top:0;display:grid;gap:12px}
+#pubs .item{border:1px solid #e7ecf2;padding:23px 25px;border-radius:16px;background:#fbfcfe;transition:background .2s,border-color .2s;animation:appear .25s ease-out}
+#pubs .item:hover{background:#f5f8fc;border-color:#cddbed}
+.tag{border-radius:6px;padding:2px 8px}
+.tag.cs{background:#eaf1fc;color:#315e9e}
+.tag.civil{background:#edf3ef;color:#4b6857}
+.more{display:flex;align-items:center;gap:12px;margin:18px auto 0;padding:9px 19px;border:1px solid #e1e7ef;border-radius:999px;background:#f8fafd;transition:background .2s,border-color .2s}
+.more:after{content:'+';font-size:16px;line-height:1}
+.more[aria-expanded="true"]:after{content:'−'}
+.more:hover{background:#edf3fb;border-color:#cddbed}
+@keyframes appear{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+#research{padding-top:28px}
+#research .skills{margin:0 0 28px}
+@media(max-width:640px){.skills{grid-template-columns:1fr;gap:12px;margin-top:22px}.skill-card{padding:18px 19px}.intro-background{margin-top:24px}#research{padding-top:24px}#pubs .item{padding:20px}.filter{gap:4px}}
+@media(prefers-reduced-motion:reduce){#pubs .item{animation:none}.filter button,#pubs .item,.more{transition:none}}
+</style>
 </head>
 
 <body>
-  <div class="container">
 
-
-    <section id="header-nav">
-      <header>
-        <nav class="navbar navbar-expand-md bg-light" style="background-color: #ffffff;">
-          <div class="container-fluid mt-3">
-            <!-- <image class="icon" src="/assets/img/icons/rocket_icon.png"></image> -->
-            <button class="navbar-toggler my-auto" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span><i class="fas fa-bars"></i></span>
-            </button>
-
-            <div class="collapse navbar-collapse mb-0 pb-3" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-
-                <li class="nav-item my-auto mx-auto pe-3 text-center current"><a class="nav-link active"
-                    aria-current="page" href="/">Home</a></li>
-
-                <li class="nav-item btn-nav my-auto mx-auto pe-3 text-center ">
-                  <a class="nav-link" href="#publications">
-                    <span data-hover="Publications">Publications</span>
-                  </a>
-                </li>
-
-
-                <li class="nav-item btn-nav my-auto mx-auto pe-3 text-center ">
-                  <a class="nav-link" href="/projects.html">
-                    <span data-hover="Projects">Projects</span>
-                  </a>
-                </li>
-
-
-                <!-- publications -->
-
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-    </section>
-  </div><!-- This Tag means End .container -->
-
-  <div id="portfolio">
-    <section id="about-me">
-      <div class="row">
-        <div class="img-wrap col-12 col-md-4">
-          <div class="img">
-            <img src="/assets/img/face.png" alt="user_image">
-          </div>
-          <ul id="icons">
-            <li>
-              <a href="https://www.linkedin.com/in/yuntaej/" target="_blank" title="Linkedin">
-                <i class="fa fa-linkedin-square"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://o365skku-my.sharepoint.com/:b:/g/personal/jyt0131_o365_skku_edu/EelF6f0MpCBGkI5MrteWp8ABYNQ_zNjhmt3DUrcXVOZT7w?e=vKT1cx"
-                target="_blank" title="CV">
-                <i class="ai ai-cv-square ai-1x"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://scholar.google.com/citations?user=aOsr8ZUAAAAJ&hl=en&oi=ao" target="_blank" title="Google Scholar">
-                <i class="fa fa-graduation-cap"></i> <!-- Font Awesome icon for Google Scholar -->
-              </a>
-            </li>
-
-            <li>
-              <a href="https://github.com/yuntaeJ" target="_blank" title="Github">
-                <i class="fab fa-github"></i>
-              </a>
-            </li>
-        </div>
-
-        <div class="text-wrap col-12 col-md-8">
-          <h2 class="username">Yuntae Jeon | 전윤태</h2>
-          <div class="description">
-            <p>I received dual B.S. degrees at
-              <span style="text-decoration: underline;">Civil Engineering & Computer Science Engineering</span> from Sungkyunkwan
-              University(SKKU), South Korea. Currently, I am working at DeltaX as an AI researcher. 
-              <br />
-              My research interests focus on <span style="text-decoration: underline;">computer vision and large language model(LLM)-based decision-making</span> for automating construction processes.</p>
-              <br /> <p class="dream-italic">"My dream is building a home on Mars."</p>
-          </div>
-        </div>
-      </div>
-      <div class="bg"></div>
-    </section>
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume" style="background: linear-gradient(135deg, #f8f9fa 0%, #F4F3EA 100%); padding: 40px 0 60px 0; margin-top: 0;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>M.S.
-              </h4>
-              <h5>2023.03 – 2025.02</h5>
-              <p> <b>Sungkyunkwan University, South Korea</b> </p>
-              <ul>
-                <li>Global Smart City &nbsp; &nbsp; (Advisor : Prof. Seunghee Park)</li>
-                <ul class="edu-check">
-                  <li>Korean President Science Scholarship for Graduate</li>
-                </ul>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>KIC Tech Frontier
-              </h4>
-              <h5>2023.07 – 2023.08</h5>
-              <p> <b>University of California, Berkeley, U.S.</b> </p>
-              <ul>
-                <li>Haas School of Business</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>B.S.
-              </h4>
-              <h5>2019.03 – 2023.02</h5>
-              <p> <b>Sungkyunkwan University, South Korea</b> </p>
-              <ul>
-                <li>Civil Engineering</li>
-                <ul class="edu-check">
-                  <li>Summa Cum Laude (Top 5%)</li>
-                </ul>
-                <li>Computer Science</li>
-                <ul class="edu-check">
-                  <li>Best Graduation Paper Award (3rd)</li>
-                </ul>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Career</h3>
-            <div class="resume-item">
-              <h4>AI Researcher
-              </h4>
-              <h5>2025.02 - Present</h5>
-              <p> <b>DeltaX, South Korea</b> </p>
-              <ul>
-                <li>AI Team, Development of Vision AI Model</li>
-                <li>Driver & Worker Monitoring System</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>AI Researcher
-              </h4>
-              <h5>2021.09 - 2023.02</h5>
-              <p> <b>Smartinside AI, South Korea</b> </p>
-              <ul>
-                <li>AI Solution Team, Development of Vision AI Model</li>
-                <li>Construction Sites Video Analysis</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- End Resume Section -->
-
-
-
-    <!-- project section -->
-    <section id="resume" class="resume" style="background: linear-gradient(135deg, #d9e7f5 0%, #CBD0D8 100%); padding: 40px 0 60px 0; margin-top: 0;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Award</h3>
-            <a href="https://vizwiz.org/workshops/2024-vizwiz-grand-challenge-workshop/" target="_blank" class="resume-item-link">
-            <div class="resume-item">
-              <h4>CVPR 2024 VizWiz Grand Challenge Workshop, 2024.06</h4>
-              <ul style="list-style-type:square;">
-                <li>3rd Place Award, VQA(Visual Question Answering)-AnswerTherapy</li>
-              </ul>
-            </div>
-            </a>
-            <a href="https://cvaad-workshop.github.io/competition/" target="_blank" class="resume-item-link">
-            <div class="resume-item">
-              <h4>ICCV 2023 Computer Vision Aided Architectural Design(CVAAD) Workshop, 2023.10</h4>
-              <ul style="list-style-type:square;">
-                <li>1st Place Award, Floor Plan Auto-Completion</li>
-              </ul>
-            </div>
-            </a>
-            <a href="https://presidentlist.skku.edu/presidentlist/2022_list.do?mode=list&&articleLimit=10&article.offset=20" target="_blank" class="resume-item-link">
-            <div class="resume-item">
-              <h4>SKKU President's List, 2022.12
-              </h4>
-              <ul style="list-style-type:square;">
-                <li>President of SKKU Award</li>
-                <li>A representative student of College of Engineering</li> 
-              </ul>
-            </div>
-            </a>
-            <div class="resume-item">
-              <h4>AI Championship, 2022.12
-              </h4>
-              <ul style="list-style-type:square;">
-                <li>1st Place Award, CCTV-based construction sites video analysis, DL E&C's project </li>
-              </ul>
-            </div>
-            <a href="https://sw.skku.edu/sw/news.do?mode=view&articleNo=150666&article.offset=200&articleLimit=10" target="_blank" class="resume-item-link">
-            <div class="resume-item">
-              <h4>SKKU Best Graduation Paper in College of Computing and Informatics, 2022.11
-              </h4>
-              <ul style="list-style-type:square;">
-                <li>3rd Place Award in 100+ graduation papers</li>
-                <li>"An evolutionary neural architecture search for optimizing object detection models"
-                  <br> (advised by Prof. Jaekwang Kim)
-                </li> 
-              </ul>
-            </div>
-            </a>
-            <div class="resume-item">
-              <h4>AI Championship, 2021.11
-              </h4>
-              <ul style="list-style-type:square;">
-                <li>Minister of SMEs and Startups Award (1st)</li>
-                <li>AI-based risk analysis in electricity facilities, Korea Electric Power Corporation(KEPCO)'s project
-                </li> 
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Scholarship</h3>
-            <div class="resume-item">
-              <h4>Korean President Science Scholarship for Graduate, 2024-2025
-              </h4>
-              <ul style="list-style-type:square;">
-                <li>President of Korea</li>
-                <li>제1기 대학원 대통령과학장학생, 건설&교통 부문</li>
-                <li>1st Presidential Science Scholarship for Graduate, Construction & Transportation ($14000)</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Sungkyunkwan University(SKKU) Graduate School Scholarship, 2023-2025
-              </h4>
-              <ul style="list-style-type:square;">
-                <li>President of SKKU Graduate Shcool</li>
-                <li>Graduate School 2-years Full Scholarship ($26000)</li>
-              </ul>
-            </div>
-
-            <a href="https://eng.skku.edu/skku/campus/skk_comm/news.do?mode=view&articleNo=101073" target="_blank" class="resume-item-link">
-            <div class="resume-item">
-              <h4>Korean Society of Civil Engineers(KSCE) Scholarship, 2022
-              </h4>
-              <ul style="list-style-type:square;">
-                <li>President of KSCE</li>
-                <li>KSCE Park Chang-ho Scholarship ($3000)</li>
-              </ul>
-            </div>
-            </a>
-            <div class="resume-item">
-              <h4>Sungkyunkwan University(SKKU) Scholarship, 2022
-              </h4>
-              <ul style="list-style-type:square;">
-                <li>President of SKKU</li>
-                <li>Student Success & Creative Student Scholarship ($4000)</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Sungkyunkwan University(SKKU) Scholarship, 2021
-              </h4>
-              <ul style="list-style-type:square;">
-                <li>President of SKKU Alumni Association</li>
-                <li>Global Center Contributor Scholarship ($2000)</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Korea Institute of Registered Architectures(KIRA) Scholarship, 2020
-              </h4>
-              <ul style="list-style-type:square;">
-                <li>President of Gyeongsangbuk-do Architectural Society, KIRA ($3000)</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- modal -->
-    <script type="text/javascript" src="/assets/js/modal.js"></script>
-    <script>
-      const buttonLeft = document.getElementById('slideLeft');
-      const buttonRight = document.getElementById('slideRight');
-
-      buttonRight.onclick = function () {
-        card_container = document.getElementById('card-container');
-        document.getElementById('card-container').scrollLeft += card_container.querySelector(".card").offsetWidth + 30;
-      };
-      buttonLeft.onclick = function () {
-        card_container = document.getElementById('card-container');
-        document.getElementById('card-container').scrollLeft -= card_container.querySelector(".card").offsetWidth + 30;
-      };
-    </script>
-
-    <section id="patents">
-      <div class="container-fluid patents-publications-container">
-        <div class="recentpubs-wrap">
-          <p class="title">PATENTS</p>
-        <h2 class="bibliography">U.S.</h2>
-        <br>
-        <ol class="bibliography">
-          <li>
-            <a href="https://patents.google.com/patent/US20240078810A1/en" target="_blank" class="resume-item-link">
-            <div class="title">Image-based object recognition method and system based on learning of environment variable data
-            </div>
-            <div class="author">
-              US 2024/0078810 A1, 2024
-            </div>
-            </a>
-          </li>
-        </ol>
-        <h2 class="bibliography">Korea</h2>
-        <br>
-        <ol class="bibliography">
-          <li>
-            <a href="https://doi.org/10.8080/1020230131723" target="_blank" class="resume-item-link">
-            <div class="title">Device and Method for Monitoring Industrial Site based on CCTV Cameras
-            </div>
-            <div class="author">
-              KR 10-2023-0131723, 2023
-            </div>
-            </a>
-          </li>
-        </ol>
-        <ol class="bibliography">
-          <li>
-            <a href="https://doi.org/10.8080/1020230164653" target="_blank" class="resume-item-link">
-            <div class="title">Zero Shot Object Detection based River Waste Monitoring System
-            </div>
-            <div class="author">
-              KR 10-2023-0164653, 2023
-            </div>
-            </a>
-          </li>
-        </ol>
-      </div>
-    </div>
-    </section>
-
-    <section id="publications">
-      <div class="container-fluid patents-publications-container">
-        <div class="recentpubs-wrap">
-          <p class="title">PUBLICATIONS</p>
-        <h2 class="bibliography">Journal</h2>
-        <h3 class="bibliography">2025</h3>
-        <ol class="bibliography">
-          <li>
-            <div class="title">Neural radiance fields for construction site scene representation and progress evaluation with BIM
-            </div>
-            <div class="author">
-              <em>Yuntae Jeon</em>,&nbsp;Dai Quoc Tran,&nbsp;Khoa Tran Dang Vo,&nbsp;Jaehyun Jeon,&nbsp;Minsoo Park,&nbsp;and&nbsp;Seunghee Park
-            </div>
-            <div class="third-line">
-              Automation in Construction, 2025
-            </div>
-
-            <!-- Links/Buttons -->
-            <div class="links">
-              <a href="https://doi.org/10.1016/j.autcon.2025.106013"
-                class="btn btn-sm z-depth-0" role="button">Link</a>
-            </div>
-          </li>
-          <li>
-            <div class="title">Visual Question Answering-based Referring Expression Segmentation for construction safety analysis
-            </div>
-            <div class="author">
-              Dai Quoc Tran,&nbsp;Armstrong Aboah,&nbsp;<em>Yuntae Jeon</em>,&nbsp;Minh-Truyen Do,&nbsp;Mohamed Abdel-Aty,&nbsp;Minsoo Park,&nbsp;and&nbsp;Seunghee Park
-            </div>
-            <div class="third-line">
-              Automation in Construction, 2025
-            </div>
-
-            <!-- Links/Buttons -->
-            <div class="links">
-              <a href="https://doi.org/10.1016/j.autcon.2025.106127"
-                class="btn btn-sm z-depth-0" role="button">Link</a>
-            </div>
-          </li>
-          <li>
-            <div class="title">BIM-based automated analysis of dynamic hazards for proactive safety measures during the earthwork construction stage using CCTV data
-            </div>
-            <div class="author">
-              Almo Senja Kulinan,&nbsp;<em>Yuntae Jeon</em>,&nbsp;Pa Pa Win Aung,&nbsp;Minsoo Park,&nbsp;Gichun Cha,&nbsp;Seunghee Park
-            </div>
-            <div class="third-line">
-              Advanced Engineering Informatics, 2025
-            </div>
-
-            <!-- Links/Buttons -->
-            <div class="links">
-              <a href="https://doi.org/10.1016/j.aei.2025.103296"
-                class="btn btn-sm z-depth-0" role="button">Link</a>
-            </div>
-          </li>
-          <li>
-            <div class="title">Scaffolding worker IMU time-series dataset for deep learning-based construction site behavior recognition
-            </div>
-            <div class="author">
-              Minsoo Park,&nbsp;Seongwoo Son,&nbsp;<em>Yuntae Jeon</em>,&nbsp;Dongyoung Ko,&nbsp;Mingeon Cho,&nbsp;and&nbsp;Seunghee Park
-            </div>
-            <div class="third-line">
-              Advanced Engineering Informatics, 2024
-            </div>
-
-            <!-- Links/Buttons -->
-            <div class="links">
-              <a href="https://doi.org/10.1016/j.aei.2025.103232"
-                class="btn btn-sm z-depth-0" role="button">Link</a>
-            </div>
-          </li>
-        </ol>
-        <h3 class="bibliography">2024</h3>
-        <ol class="bibliography">
-          <li>
-            <div class="title">Vision-Based Motion Prediction for Construction Workers Safety in Real-Time Multi-Camera System
-            </div>
-            <div class="author">
-              <em>Yuntae Jeon</em>,&nbsp;Dai Quoc Tran,&nbsp;Almo Senja Kulinan,&nbsp;Taeheon Kim,&nbsp;Minsoo Park,&nbsp;and&nbsp;Seunghee Park
-            </div>
-            <div class="third-line">
-              Advanced Engineering Informatics, 2024
-            </div>
-
-            <!-- Links/Buttons -->
-            <div class="links">
-              <a href="https://doi.org/10.1016/j.aei.2024.102898"
-                class="btn btn-sm z-depth-0" role="button">Link</a>  
-            </div>
-          </li>
-          <li>
-            <div class="title">Leveraging Semi-Supervised Learning for Domain Adaptation: Enhancing Safety at Construction Sites through Long-Tailed Object Detection
-            </div>
-            <div class="author">
-              Dai Quoc Tran,&nbsp;<em>Yuntae Jeon</em>,&nbsp;Armstrong Ahboah,&nbsp;Jinyeong Bak,&nbsp;Minsoo Park,&nbsp;and&nbsp;Seunghee Park
-            </div>
-            <div class="third-line">
-              ASCE's Journal of Construction Engineering and Management, 2024
-            </div>
-
-            <!-- Links/Buttons -->
-            <div class="links">
-              <a href="https://ascelibrary.org/doi/10.1061/JCEMD4.COENG-15259"
-                class="btn btn-sm z-depth-0" role="button">Link</a>
-            </div>
-          </li>
-        </ol>
-        <h3 class="bibliography">2022</h3>
-        <ol class="bibliography">
-          <li>
-            <div class="title">Forest-Fire Response System Using Deep-Learning-Based Approaches With CCTV Images and Weather Data
-            </div>
-            <div class="author">
-              Dai Quoc Tran,&nbsp;Minsoo Park,&nbsp;<em>Yuntae Jeon</em>,&nbsp;Jinyeong Bak,&nbsp;and&nbsp;Seunghee Park
-            </div>
-            <div class="third-line">
-              IEEE ACCESS, 2022
-            </div>
-
-            <!-- Links/Buttons -->
-            <div class="links">
-              <a href="https://ieeexplore.ieee.org/document/9801825"
-                class="btn btn-sm z-depth-0" role="button">Link</a>
-            </div>
-
-          </li>
-        </ol>
-        <h2 class="bibliography">Conference</h2>
-        <h3 class="bibliography">2024</h3>
-        <ol class="bibliography">
-          <li><!-- Entry bib key -->
-            <!-- Title -->
-            <div class="title">MSD: A Benchmark Dataset for Floor Plan Generation of Building Complexes
-              <!-- Additional Comments -->
-            </div>
-            <!-- Author -->
-            <div class="author">
-              Casper van Engelenburg,&nbsp;Fatemeh Mostafavi,&nbsp;Emanuel Kuhn,&nbsp;<em>Yuntae Jeon</em>,&nbsp;Michael Franzen,&nbsp;Matthias Standfest,&nbsp;Jan van Gemert,&nbsp;and&nbsp;Seyran Khademi
-            </div>
-            <div>
-              IEEE/CVF European Conference on Computer Vision (ECCV), 2024
-            </div>
-
-            <!-- Links/Buttons -->
-            <div class="links">
-              <a href="https://caspervanengelenburg.github.io/msd-eccv24-page/"
-                class="btn btn-sm z-depth-0" role="button">Link</a>
-            </div>
-
-          </li>
-          <li><!-- Entry bib key -->
-            <!-- Title -->
-            <div class="title">Low-Light Image Enhancement Framework for Improved Object Detection in Fisheye Lens Dataset
-              <!-- Additional Comments -->
-            </div>
-            <!-- Author -->
-            <div class="author">
-              Dai Quoc Tran,&nbsp;Armstrong Aboah,&nbsp;<em>Yuntae Jeon</em>,&nbsp;Maged Shoman,&nbsp;Minsoo Park,&nbsp;and&nbsp;Seunghee Park
-            </div>
-            <div>
-              IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRw), 2024
-            </div>
-
-            <!-- Links/Buttons -->
-            <div class="links">
-              <a href="https://openaccess.thecvf.com/content/CVPR2024W/AICity/html/Tran_Low-Light_Image_Enhancement_Framework_for_Improved_Object_Detection_in_Fisheye_CVPRW_2024_paper.html"
-                class="btn btn-sm z-depth-0" role="button">Link</a>
-            </div>
-          </li>
-          <li><!-- Entry bib key -->
-            <!-- Title -->
-            <div class="title">NeRF-Con : Neural Radiance Fields for Automated Construction Progress Monitoring
-              <!-- Additional Comments -->
-            </div>
-            <!-- Author -->
-            <div class="author">
-              <em>Yuntae Jeon</em>,&nbsp;Almo Senja Kulinan,&nbsp;Dai Quoc Tran,&nbsp;Minsoo Park,&nbsp;and&nbsp;Seunghee Park
-            </div>
-            <div>
-              International Symposium on Automation and Robotics in Construction (ISARC), 2024
-            </div>
-
-            <!-- Links/Buttons -->
-            <div class="links">
-              <a href="https://www.iaarc.org/publications/2024_proceedings_of_the_41st_isarc_lille_france/nerf-con_neural_radiance_fields_for_automated_construction_progress_monitoring.html"
-                class="btn btn-sm z-depth-0" role="button">Link</a>
-            </div>
-
-          </li>
-          <li><!-- Entry bib key -->
-            <!-- Title -->
-            <div class="title">GPT-based Logic Reasoning for Hazard Identification in Construction Site using CCTV Data
-              <!-- Additional Comments -->
-            </div>
-            <!-- Author -->
-            <div class="author">
-              Dai Quoc Tran,&nbsp;<em>Yuntae Jeon</em>,&nbsp;Minsoo Park,&nbsp;and&nbsp;Seunghee Park
-            </div>
-            <div>
-              International Symposium on Automation and Robotics in Construction (ISARC), 2024
-            </div>
-
-            <!-- Links/Buttons -->
-            <div class="links">
-              <a href="https://www.iaarc.org/publications/2024_proceedings_of_the_41st_isarc_lille_france/gpt-based_logic_reasoning_for_hazard_identification_in_construction_site_using_cctv_data.html"
-                class="btn btn-sm z-depth-0" role="button">Link</a>
-            </div>
-
-          </li>
-          <li><!-- Entry bib key -->
-            <!-- Title -->
-            <div class="title">Multi-modal AI-based Water Pipeline Data Accumulation and Leakage Prediction Research using Image and Ultrasound Data
-              <!-- Additional Comments -->
-            </div>
-            <!-- Author -->
-            <div class="author">
-              <em>Yuntae Jeon</em>,&nbsp;Byungjoon Yu,&nbsp;Dongyoung Go,&nbsp;Dai Quoc Tran,&nbsp;and&nbsp;Seunghee Park
-            </div>
-            <div>
-              SPIE Smart Structures + Nondestructive Evaluation, 2024
-            </div>
-
-            <!-- Links/Buttons -->
-            <div class="links">
-              <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12949/3007717/Multi-modal-AI-based-water-pipeline-data-accumulation-and-leakage/10.1117/12.3007717.short"
-                class="btn btn-sm z-depth-0" role="button">Link</a>
-            </div>
-
-          </li>
-          <li><!-- Entry bib key -->
-            <!-- Title -->
-            <div class="title">Experimental study for nondestructive evaluation of steel rods in ground anchor using an EMI sensor: optimal design of EMI sensor through finite element simulation
-              <!-- Additional Comments -->
-            </div>
-            <!-- Author -->
-            <div class="author">
-              Dongyoung Ko,&nbsp;Jooyoung Park,&nbsp;Changjun Lee,&nbsp;<em>Yuntae Jeon</em>,&nbsp;and&nbsp;Seunghee Park
-            </div>
-            <div>
-              SPIE Smart Structures + Nondestructive Evaluation, 2024
-            </div>
-
-            <!-- Links/Buttons -->
-            <div class="links">
-              <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12949/129490B/Experimental-study-for-nondestructive-evaluation-of-steel-rods-in-ground/10.1117/12.3009973.short#_=_"
-                class="btn btn-sm z-depth-0" role="button">Link</a>
-            </div>
-
-          </li>
-        </ol>
-        <h3 class="bibliography">2023</h3>
-        <ol class="bibliography">
-          <li>
-            <div class="title">Leveraging Future Trajectory Prediction for Multi-Camera People Tracking
-            </div>
-            <div class="author">
-              <em>Yuntae Jeon</em>,&nbsp;Dai Quoc Tran,&nbsp;Minsoo Park,&nbsp;and&nbsp;Seunghee Park
-            </div>
-            <div>
-              IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRw), 2023
-            </div>
-
-            <!-- Links/Buttons -->
-            <div class="links">
-              <a href="https://openaccess.thecvf.com/content/CVPR2023W/AICity/html/Jeon_Leveraging_Future_Trajectory_Prediction_for_Multi-Camera_People_Tracking_CVPRW_2023_paper.html" 
-                class="btn btn-sm z-depth-0" role="button">Link</a>
-            </div>
-
-          </li>
-        </ol>
-        
-      </div>
-    </div>
-    </section>
+<nav class="nav">
+  <div class="wrap nav-in">
+    <span class="nav-mark">Yuntae Jeon</span>
+    <a href="#focus">About</a>
+    <a href="#research">Research</a>
+    <a href="#patents">Patents</a>
+    <a href="#honors">Honors</a>
   </div>
+</nav>
 
+<main class="wrap">
 
-  <!-- Footer -->
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="focus">
+    <div class="hero-top">
+      <div class="hero-txt">
+        <div class="identity">
+          <h1>Yuntae Jeon <span style="color:var(--muted);font-weight:400">| 전윤태</span></h1>
+          <p class="role">AI Researcher at DeltaX, South Korea</p>
+        </div>
+        <p class="bio">My work connects civil engineering and computer vision, from research on the built environment to AI systems for construction sites and smart factories. My long-term ambition is to help build a home on Mars.</p>
+      </div>
+      <img class="avatar" src="/assets/img/face.png" alt="Yuntae Jeon">
+    </div>
+
+    <div class="links">
+      <a href="https://scholar.google.com/citations?user=aOsr8ZUAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Scholar</a>
+      <a href="https://github.com/yuntaeJ" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/yuntaej/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <span class="email"><i class="fas fa-envelope" aria-hidden="true"></i> jyt0131@gmail.com</span>
+    </div>
+
+    <div class="two intro-background" aria-label="Education and experience">
+      <div class="intro-column">
+        <h2 class="intro-title">Education</h2>
+        <div class="tl">
+          <div class="tl-item civil">
+            <div class="h">M.S., Global Smart City</div>
+            <div class="m">Sungkyunkwan University · 2023.03–2025.02</div>
+            <div class="d">Advisor: Prof. Seunghee Park<br>Presidential Science Scholar</div>
+          </div>
+          <div class="tl-item cs">
+            <div class="h">KIC Tech Frontier</div>
+            <div class="m">UC Berkeley, Haas School of Business · 2023.07–08</div>
+          </div>
+          <div class="tl-item">
+            <div class="h">B.S., Civil Engineering &amp; Computer Science</div>
+            <div class="m">Sungkyunkwan University · 2019.03–2023.02</div>
+            <div class="d">Summa Cum Laude (Top 5%)<br>
+              Best Graduation Paper Award (3rd Place)</div>
+          </div>
+        </div>
+      </div>
+      <div class="intro-column">
+        <h2 class="intro-title">Experience</h2>
+        <div class="tl">
+          <div class="tl-item cs">
+            <div class="h">AI Researcher — DeltaX</div>
+            <div class="m">2025.02 – Present</div>
+            <div class="d">Develop, deploy, and support the operation of smart factory vision solutions for automotive press lines at Kia Motors and Hyundai Motor Company.</div>
+          </div>
+          <div class="tl-item cs">
+            <div class="h">AI Researcher — Smartinside AI</div>
+            <div class="m">2021.09 – 2023.02</div>
+            <div class="d">Developed CCTV video analytics for Hyundai E&amp;C, DL E&amp;C, and POSCO E&amp;C to support worker safety management, analyze heavy equipment utilization, and monitor construction progress.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ RESEARCH ============ -->
+  <section id="research" class="rv">
+    <div class="sec-head">
+      <h2>Research</h2>
+      <span class="rule"></span>
+    </div>
+
+    <div class="skills" aria-label="Research overview">
+      <article class="skill-card">
+        <h2>Civil Engineering &amp; Architecture</h2>
+        <ul>
+          <li><strong>Site representation and progress evaluation.</strong> My research combines neural radiance fields (NeRF) with building information modeling (BIM) to represent construction scenes and evaluate progress.</li>
+          <li><strong>Construction safety.</strong> My work explores worker motion prediction across multiple cameras to support construction safety.</li>
+        </ul>
+      </article>
+      <article class="skill-card">
+        <h2>AI &amp; Computer Vision</h2>
+        <ul>
+          <li><strong>Robust detection and tracking.</strong> My research explores low-light image enhancement for fisheye object detection, object recognition models that are robust to domain shifts, and multi-camera synchronization for cross-camera object tracking.</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="filter" id="filter" role="group" aria-label="Filter research">
+      <button type="button" data-f="all" aria-pressed="true">All</button>
+      <button type="button" data-f="civil" aria-pressed="false">Civil</button>
+      <button type="button" data-f="ai" aria-pressed="false">AI</button>
+    </div>
+
+    <div class="list" id="pubs">
+
+      <article class="item" data-d="civil">
+        <div class="t">Neural radiance fields for construction site scene representation and progress evaluation with BIM</div>
+        <div class="au"><em>Yuntae Jeon</em>, Dai Quoc Tran, Khoa Tran Dang Vo, Jaehyun Jeon, Minsoo Park, Seunghee Park</div>
+        <div class="vn"><i>Automation in Construction</i> · <span class="yr">2025</span></div>
+        <div class="row"><a class="btn" href="https://doi.org/10.1016/j.autcon.2025.106013" target="_blank" rel="noopener">link</a></div>
+      </article>
+
+      <article class="item" data-d="civil">
+        <div class="t">Vision-Based Motion Prediction for Construction Workers Safety in Real-Time Multi-Camera System</div>
+        <div class="au"><em>Yuntae Jeon</em>, Dai Quoc Tran, Almo Senja Kulinan, Taeheon Kim, Minsoo Park, Seunghee Park</div>
+        <div class="vn"><i>Advanced Engineering Informatics</i> · <span class="yr">2024</span></div>
+        <div class="row"><a class="btn" href="https://doi.org/10.1016/j.aei.2024.102898" target="_blank" rel="noopener">link</a></div>
+      </article>
+
+      <article class="item" data-d="civil">
+        <div class="t">Leveraging Semi-Supervised Learning for Domain Adaptation: Enhancing Safety at Construction Sites through Long-Tailed Object Detection</div>
+        <div class="au">Dai Quoc Tran, <em>Yuntae Jeon</em>, Armstrong Ahboah, Jinyeong Bak, Minsoo Park, Seunghee Park</div>
+        <div class="vn"><i>ASCE's Journal of Construction Engineering and Management</i> · <span class="yr">2024</span></div>
+        <div class="row"><a class="btn" href="https://ascelibrary.org/doi/10.1061/JCEMD4.COENG-15259" target="_blank" rel="noopener">link</a></div>
+      </article>
+
+      <article class="item" data-d="ai">
+        <div class="t">MSD: A Benchmark Dataset for Floor Plan Generation of Building Complexes</div>
+        <div class="au">Casper van Engelenburg, Fatemeh Mostafavi, Emanuel Kuhn, <em>Yuntae Jeon</em>, Michael Franzen, Matthias Standfest, Jan van Gemert, Seyran Khademi</div>
+        <div class="vn"><i>European Conference on Computer Vision (ECCV)</i> · <span class="yr">2024</span></div>
+        <div class="row"><a class="btn" href="https://caspervanengelenburg.github.io/msd-eccv24-page/" target="_blank" rel="noopener">Project</a></div>
+      </article>
+
+      <article class="item" data-d="ai">
+        <div class="t">Low-Light Image Enhancement Framework for Improved Object Detection in Fisheye Lens Dataset</div>
+        <div class="au">Dai Quoc Tran, Armstrong Aboah, <em>Yuntae Jeon</em>, Maged Shoman, Minsoo Park, Seunghee Park</div>
+        <div class="vn"><i>CVPR Workshops (CVPRW)</i> · <span class="yr">2024</span></div>
+        <div class="row"><a class="btn" href="https://openaccess.thecvf.com/content/CVPR2024W/AICity/html/Tran_Low-Light_Image_Enhancement_Framework_for_Improved_Object_Detection_in_Fisheye_CVPRW_2024_paper.html" target="_blank" rel="noopener">Paper</a></div>
+      </article>
+
+      <article class="item" data-d="civil">
+        <div class="t">NeRF-Con: Neural Radiance Fields for Automated Construction Progress Monitoring</div>
+        <div class="au"><em>Yuntae Jeon</em>, Almo Senja Kulinan, Dai Quoc Tran, Minsoo Park, Seunghee Park</div>
+        <div class="vn"><i>Int. Symposium on Automation and Robotics in Construction (ISARC)</i> · <span class="yr">2024</span></div>
+        <div class="row"><a class="btn" href="https://www.iaarc.org/publications/2024_proceedings_of_the_41st_isarc_lille_france/nerf-con_neural_radiance_fields_for_automated_construction_progress_monitoring.html" target="_blank" rel="noopener">Paper</a></div>
+      </article>
+
+      <article class="item" data-d="civil">
+        <div class="t">Multi-modal AI-based water pipeline data accumulation and leakage prediction research using image and ultrasound data</div>
+        <div class="au"><em>Yuntae Jeon</em>, Byoungjoon Yu, Dongyoung Ko, Dai Quoc Tran, Seunghee Park</div>
+        <div class="vn"><i>SPIE Smart Structures + Nondestructive Evaluation</i> · <span class="yr">2024</span></div>
+        <div class="row"><a class="btn" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12949/3007717/Multi-modal-AI-based-water-pipeline-data-accumulation-and-leakage/10.1117/12.3007717.short" target="_blank" rel="noopener">Paper</a></div>
+      </article>
+
+      <article class="item" data-d="ai">
+        <div class="t">Leveraging Future Trajectory Prediction for Multi-Camera People Tracking</div>
+        <div class="au"><em>Yuntae Jeon</em>, Dai Quoc Tran, Minsoo Park, Seunghee Park</div>
+        <div class="vn"><i>CVPR Workshops (CVPRW)</i> · <span class="yr">2023</span></div>
+        <div class="row"><a class="btn" href="https://openaccess.thecvf.com/content/CVPR2023W/AICity/html/Jeon_Leveraging_Future_Trajectory_Prediction_for_Multi-Camera_People_Tracking_CVPRW_2023_paper.html" target="_blank" rel="noopener">Paper</a></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ PATENTS ============ -->
+  <section id="patents" class="rv">
+    <div class="sec-head">
+      <h2>Patents</h2>
+      <span class="rule"></span>
+    </div>
+    <div class="list" id="patentList">
+      <article class="item">
+        <div class="t"><a href="https://patents.google.com/patent/US20240078810A1/en" target="_blank" rel="noopener">Image-based object recognition method and system based on learning of environment variable data</a></div>
+        <div class="vn">US 2024/0078810 A1 · <span class="yr">2024</span></div>
+        <div class="row"><span class="tag" style="color:var(--muted);border:1px solid var(--line)">United States</span></div>
+      </article>
+      <article class="item">
+        <div class="t"><a href="https://doi.org/10.8080/1020230131723" target="_blank" rel="noopener">Device and Method for Monitoring Industrial Site based on CCTV Cameras</a></div>
+        <div class="vn">KR 10-2023-0131723 · <span class="yr">2023</span></div>
+        <div class="row"><span class="tag" style="color:var(--muted);border:1px solid var(--line)">Korea</span></div>
+      </article>
+      <article class="item">
+        <div class="t"><a href="https://doi.org/10.8080/1020230164653" target="_blank" rel="noopener">Zero-Shot Object Detection based River Waste Monitoring System</a></div>
+        <div class="vn">KR 10-2023-0164653 · <span class="yr">2023</span></div>
+        <div class="row"><span class="tag" style="color:var(--muted);border:1px solid var(--line)">Korea</span></div>
+      </article>
+    </div>
+    <button class="more" id="morePatents" type="button" aria-controls="patentList" aria-expanded="false" hidden>Show more</button>
+  </section>
+
+  <!-- ============ HONORS ============ -->
+  <section id="honors" class="rv">
+    <div class="sec-head">
+      <h2>Awards</h2>
+      <span class="rule"></span>
+    </div>
+    <div id="awards">
+      <div class="honor">
+        <div class="yr">2024.06</div>
+        <div class="b">
+          <div class="h"><a href="https://vizwiz.org/workshops/2024-vizwiz-grand-challenge-workshop/" target="_blank" rel="noopener">3rd Place — VizWiz Grand Challenge, CVPR 2024</a> </div>
+          <div class="s">Visual Question Answering — AnswerTherapy track</div>
+        </div>
+      </div>
+      <div class="honor">
+        <div class="yr">2023.10</div>
+        <div class="b">
+          <div class="h"><a href="https://cvaad-workshop.github.io/competition/" target="_blank" rel="noopener">1st Place — CVAAD Workshop, ICCV 2023</a> </div>
+          <div class="s">Floor Plan Auto-Completion challenge</div>
+        </div>
+      </div>
+      <div class="honor">
+        <div class="yr">2022.12</div>
+        <div class="b">
+          <div class="h"><a href="https://presidentlist.skku.edu/presidentlist/2022_list.do?mode=list&amp;articleLimit=10&amp;article.offset=20" target="_blank" rel="noopener">SKKU President's List</a></div>
+          <div class="s">Selected to represent the College of Engineering</div>
+        </div>
+      </div>
+      <div class="honor">
+        <div class="yr">2022.12</div>
+        <div class="b">
+          <div class="h">1st Place — AI Championship </div>
+          <div class="s">CCTV-based construction site video analysis · DL E&amp;C project</div>
+        </div>
+      </div>
+      <div class="honor">
+        <div class="yr">2022.11</div>
+        <div class="b">
+          <div class="h"><a href="https://sw.skku.edu/sw/news.do?mode=view&amp;articleNo=150666&amp;article.offset=200&amp;articleLimit=10" target="_blank" rel="noopener">3rd Place — SKKU Best Graduation Paper, College of Computing</a> </div>
+          <div class="s">"An evolutionary neural architecture search for optimizing object detection models" — among 100+ papers</div>
+        </div>
+      </div>
+      <div class="honor">
+        <div class="yr">2021.11</div>
+        <div class="b">
+          <div class="h">Minister of SMEs and Startups Award (1st) — AI Championship </div>
+          <div class="s">AI-based risk analysis for electrical facilities · KEPCO project</div>
+        </div>
+      </div>
+    </div>
+    <button class="more" id="moreAwards" type="button" aria-controls="awards" aria-expanded="false">Show more</button>
+
+    <div class="sec-head" style="margin-top:30px">
+      <h2>Scholarships</h2>
+      <span class="rule"></span>
+    </div>
+    <div id="schols">
+      <div class="honor">
+        <div class="yr">2024–25</div>
+        <div class="b">
+          <div class="h">Korean Presidential Science Scholarship for Graduate Students </div>
+          <div class="s">1st cohort, Construction &amp; Transportation · 제1기 대학원 대통령과학장학생 ($14,000)</div>
+        </div>
+      </div>
+      <div class="honor">
+        <div class="yr">2023–25</div>
+        <div class="b">
+          <div class="h">SKKU Graduate School Scholarship</div>
+          <div class="s">2-year full scholarship ($26,000)</div>
+        </div>
+      </div>
+      <div class="honor">
+        <div class="yr">2022</div>
+        <div class="b">
+          <div class="h"><a href="https://eng.skku.edu/skku/campus/skk_comm/news.do?mode=view&amp;articleNo=101073" target="_blank" rel="noopener">Korean Society of Civil Engineers (KSCE) Scholarship</a> </div>
+          <div class="s">Park Chang-ho Scholarship ($3,000)</div>
+        </div>
+      </div>
+      <div class="honor">
+        <div class="yr">2022</div>
+        <div class="b">
+          <div class="h">SKKU Student Success &amp; Creative Student Scholarship</div>
+          <div class="s">President of SKKU ($4,000)</div>
+        </div>
+      </div>
+      <div class="honor">
+        <div class="yr">2021</div>
+        <div class="b">
+          <div class="h">SKKU Global Center Contributor Scholarship</div>
+          <div class="s">SKKU Alumni Association ($2,000)</div>
+        </div>
+      </div>
+      <div class="honor">
+        <div class="yr">2020</div>
+        <div class="b">
+          <div class="h">Korea Institute of Registered Architects (KIRA) Scholarship </div>
+          <div class="s">Gyeongsangbuk-do Architectural Society ($3,000)</div>
+        </div>
+      </div>
+    </div>
+    <button class="more" id="moreSchols" type="button" aria-controls="schols" aria-expanded="false">Show more</button>
+  </section>
+
   <footer>
-    <div class="footer">
-      Last Update @ Jan. 2026
-    </div>
+    <span>© 2026 Yuntae Jeon</span>
+    <span>Last updated · Sep 2026</span>
   </footer>
+</main>
 
-
-  <script type="text/javascript" src="/assets/js/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript" src="/assets/js/Headroom.js"></script>
-  <script type="text/javascript" src="/assets/js/jQuery.headroom.js"></script>
-  <script type="text/javascript" src="/assets/js/custom.js"></script>
-
-  <!-- Smooth scroll for anchor links -->
-  <script>
-    $(document).ready(function() {
-      // Smooth scroll for all anchor links
-      $('a[href^="#"]').on('click', function(event) {
-        var target = $(this.getAttribute('href'));
-        if(target.length) {
-          event.preventDefault();
-          $('html, body').stop().animate({
-            scrollTop: target.offset().top - 80 // 80px offset for fixed navbar
-          }, 800, 'swing'); // 800ms duration with swing easing
-        }
-      });
-    });
-  </script>
-
-  <script>
-    var divs = document.querySelectorAll("div.project-content");
-    $('div.project-content').each(function (index) {
-      var filename = $(this).text();
-      filename = filename.replace(/\s/g, '');
-      filename = filename.replace("/_posts/", "");
-      filename = filename.replace(".md", ".html");
-      filename = filename.substring(0, 4) + "/" + filename.substring(5);
-      filename = filename.substring(0, 7) + "/" + filename.substring(8);
-      filename = filename.substring(0, 10) + "/" + filename.substring(11);
-
-      console.log(filename);
-      $.ajax({
-        url: filename, dataType: "html", success: function (data) {
-          const node = new DOMParser().parseFromString(data, "text/html");
-          divs[index].innerHTML = node.getElementById("post").getElementsByClassName("post-content")[0].innerHTML;
-        }
-      })
-    });
-
-  </script>
-  </div>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css"
-    integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"
-    integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz"
-    crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"
-    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
-    crossorigin="anonymous"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      renderMathInElement(document.body, {
-        // customised options
-        // • auto-render specific keys, e.g.:
-        delimiters: [
-          { left: '$$', right: '$$', display: true },
-          { left: '$', right: '$', display: false },
-          { left: '\\(', right: '\\)', display: false },
-          { left: '\\[', right: '\\]', display: true }
-        ],
-        // • rendering keys, e.g.:
-        throwOnError: false
-      });
-    });
-  </script>
-  <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-    
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyDMzJQ4chCrG5gGpQGDR7cS7R-09p3VYMQ",
-      authDomain: "github-yuntae.firebaseapp.com",
-      projectId: "github-yuntae",
-      storageBucket: "github-yuntae.firebasestorage.app",
-      messagingSenderId: "865115492405",
-      appId: "1:865115492405:web:ac40b86aaf5fd68059e17c",
-      measurementId: "G-43CP9EPHD1"
-    };
-
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-  </script>
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RNQHE0TJJL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-RNQHE0TJJL');
-  </script>
+<script>
+// Share the same three-item disclosure behavior across every collection.
+function collection(listId, buttonId, filterId) {
+  const items = Array.from(document.getElementById(listId).children);
+  const more = buttonId ? document.getElementById(buttonId) : null;
+  const filters = filterId ? Array.from(document.querySelectorAll('#' + filterId + ' button')) : [];
+  let active = 'all';
+  let expanded = false;
+  function render() {
+    const matching = items.filter(item => active === 'all' || item.dataset.d.split(' ').includes(active));
+    items.forEach(item => { item.hidden = !matching.includes(item) || (more && !expanded && matching.indexOf(item) >= 3); });
+    if (more) {
+    more.hidden = matching.length <= 3;
+    more.textContent = expanded ? 'Show less' : 'Show more';
+    more.setAttribute('aria-expanded', String(expanded));
+    const label = { pubs: 'papers', patentList: 'patents', awards: 'awards', schols: 'scholarships' }[listId];
+    more.setAttribute('aria-label', expanded ? 'Show fewer ' + label : 'Show ' + Math.max(0, matching.length - 3) + ' more ' + label);
+    }
+  }
+  if (more) more.addEventListener('click', () => {
+    expanded = !expanded;
+    render();
+    if (!expanded) more.scrollIntoView({ block: 'nearest' });
+  });
+  filters.forEach(button => button.addEventListener('click', () => {
+    active = button.dataset.f;
+    expanded = active === 'all';
+    filters.forEach(filter => filter.setAttribute('aria-pressed', String(filter === button)));
+    render();
+  }));
+  render();
+}
+collection('pubs', null, 'filter');
+collection('patentList', 'morePatents');
+collection('awards', 'moreAwards');
+collection('schols', 'moreSchols');
+</script>
 </body>
-
 </html>
